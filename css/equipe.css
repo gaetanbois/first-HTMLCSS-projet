@@ -17,7 +17,16 @@
 #titre{
   text-align: center;
 }
-
+<<<<<<< HEAD
+=======
+h1{
+  font-size: 80px;
+  text-decoration: underline;
+  color: yellow;
+}
+#titre{
+  background-image: url("../img/back.jpg");
+}
 
 #en-tete{
   background-image: url("../img/back.jpg");
