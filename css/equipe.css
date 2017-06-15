@@ -6,10 +6,6 @@
   margin-bottom: 20px;
 }
 
-.photo img{
-  width: 250px;
-}
-
 .name{
   text-align: center;
 }
@@ -17,8 +13,7 @@
 #titre{
   text-align: center;
 }
-<<<<<<< HEAD
-=======
+
 h1{
   font-size: 80px;
   text-decoration: underline;
