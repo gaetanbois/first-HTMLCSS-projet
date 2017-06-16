@@ -6,11 +6,20 @@
   margin-bottom: 20px;
 }
 
-.name{
+.name {
   text-align: center;
-
+  margin-top: 20px;
+}
+.img img {
+width: 200px;
 }
 
+.img-responsive {
+  margin: auto;
+}
+.container {
+  margin-bottom: 20px;
+}
 #titre{
   text-align: center;
 }
@@ -35,8 +44,4 @@ p{
   font-size: 150px;
   line-height: 400px;
   text-align: center;
-}
-
-.img img{
-  height: 300px;
 }
