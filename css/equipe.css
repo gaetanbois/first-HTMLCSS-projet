@@ -8,7 +8,7 @@
 
 .name{
   text-align: center;
-  
+
 }
 
 #titre{
@@ -35,4 +35,8 @@ p{
   font-size: 150px;
   line-height: 400px;
   text-align: center;
+}
+
+.img img{
+  height: 300px;
 }
