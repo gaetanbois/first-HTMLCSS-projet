@@ -2,13 +2,15 @@
   text-align: center;
   font-size: 60px;
   font-style: italic;
-  color: blue;
+  color: red;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .name {
   text-align: center;
   margin-top: 20px;
+  font-size: 25px;
 }
 .img img {
 width: 200px;
