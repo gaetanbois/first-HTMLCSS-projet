@@ -1,3 +1,11 @@
+body {
+  padding-top: 80px;
+}
+
+.but {
+  text-align: center;
+}
+
 .poste{
   text-align: center;
   font-size: 60px;
@@ -14,10 +22,12 @@
 }
 .img img {
 width: 200px;
+border-radius: 10px;
 }
 
 .img-responsive {
   margin: auto;
+  border-radius: 20px;
 }
 .container {
   margin-bottom: 20px;
@@ -26,6 +36,10 @@ width: 200px;
   text-align: center;
 }
 
+footer {
+  background-color: #265a88;
+  height: 150px;
+}
 h1{
   font-size: 80px;
   text-decoration: underline;

@@ -12,14 +12,39 @@
 <body>
 
   <header id="en-tete">
-    <img class="img-responsive" src="../img/equipe.jpg" alt="">
+    <img class="img-responsive" src="img/equipe.jpg" alt="">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-inline">
+              <div class="but">
+                <a type="button" href="#Gardien" class="btn btn-primary btn-lg" >Gardien</a>
+                <a type="button" href="#Defenseur"class="btn btn-danger btn-lg">Defenseur</a>
+                <a type="button" href="#Milieudeterrain"class="btn btn-primary btn-lg">Milieu de terrain</a>
+                <a type="button" href="#Attaquant"class="btn btn-danger btn-lg">Attaquant</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <label for="">Recherche</label>
+              <select class="form-control" data-style="btn-primary">
+                <option><a href="#messi">Lionel Messi</option></a>
+                <option>Marc Andre Ter Stegen</option>
+                <option>Jordi Masip Lopez</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+          </div>
+        </div>
+    </nav>
   </header>
   <!-- Gardien -->
   <div class="poste">
+    <a name="Gardien"></a>
     <div> Gardien </div>
   </div>
-
-
 
     <div class="container">
       <div class="row">
@@ -56,6 +81,7 @@
 
 <!-- Defenseur -->
 <div class="poste">
+  <a name="Defenseur"></a>
   <div> Defenseur </div>
 </div>
 <div class="container">
@@ -137,6 +163,7 @@
 <!-- Milieu de terrain -->
 
 <div class="poste">
+  <a name="Milieudeterrain"></a>
   <div> Milieu de Terrain </div>
 </div>
 
@@ -229,6 +256,7 @@
 
 <!-- Attaquant -->
 <div class="poste">
+  <a name="Attaquant"></a>
   <div> Attanquant </div>
 </div>
 
@@ -237,7 +265,7 @@
   <div class="row">
     <div class="col-sm-3">
       <div class="name">
-        <a href="link">10 - Lionel Messi </a>
+        <a name="messi" href="link">10 - Lionel Messi </a>
       </div>
       <div class="img">
         <img class="img-responsive" src="img/messi.jpg" alt="leo messi">
@@ -275,6 +303,7 @@
   </div>
 </div>
 
+<footer></footer>
 
 <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min."></script>
