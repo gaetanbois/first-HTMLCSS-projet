@@ -1,9 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
-  padding-top: 80px;
+  padding-top: 100px;
+}
+
+.recherche {
+  padding-top: 10px;
+  padding-right: 55px;
 }
 
 .but {
   text-align: center;
+  padding-top: 20px;
 }
 
 .poste{
